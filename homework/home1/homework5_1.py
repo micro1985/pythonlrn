@@ -2,10 +2,10 @@ string = str(input("Input string: "))
 
 quant = 0
 
-vowels = "aAoOeEiIuUyY"
+VOWELS = "aoeiuy"
 
 for letter in string:
-    if letter in vowels:
+    if letter.lower() in VOWELS:
         quant += 1
     
 print("Letters quantity: ",quant)
