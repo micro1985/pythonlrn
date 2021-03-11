@@ -10,4 +10,3 @@ for i in range(iters):
         mx = a
 
 print("Maximum:", mx)
-
