@@ -8,5 +8,5 @@ for letter in string:
     if letter.lower() in VOWELS:
         quant += 1
     
-print("Letters quantity: ",quant)
+print("Letters quantity:",quant)
 
