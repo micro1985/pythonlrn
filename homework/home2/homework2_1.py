@@ -1,5 +1,5 @@
 def sumReturn(number=0):
-    number = str(number)
+    #number = str(number)
     sm = 0
     for i in range(len(number)):
         sm += int(number[i])
