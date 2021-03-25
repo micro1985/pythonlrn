@@ -3,12 +3,12 @@ numList2 = []
 listUniq1 = []
 listUniq2 = []
 
-with open('D:/DevOps/repos/pythonlrn/homework/home3/input.txt', mode='r') as f1:
+with open('input.txt', mode='r') as f1:
     numList1 = [int(line.strip()) for line in f1]
     #for line in f1:
      #   numSet1.append(int(line.strip()))
 
-with open('D:/DevOps/repos/pythonlrn/homework/home3/input_1.txt', mode='r') as f2:
+with open('input_1.txt', mode='r') as f2:
     string = f2.read()
     string = string.strip()
     numList2 = string.split(" ")
@@ -33,7 +33,7 @@ listTotal.extend(numList1)
 listTotal.extend(numList2)
 setTotal = set(listTotal)
 
-with open('D:/DevOps/repos/pythonlrn/homework/home3/results_1.txt', mode='w') as fw:
+with open('results_1.txt', mode='w') as fw:
     fw.write("Only in file1: ")
     for x in listUniq1:
         fw.write(str(x) + " ")
