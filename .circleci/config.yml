@@ -18,4 +18,5 @@ jobs:
 workflows:
   main:
     jobs:
+      - checkout
       - build-and-test
